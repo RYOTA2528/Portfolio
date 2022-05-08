@@ -38,3 +38,47 @@ header{
 h2{
   text-align: center;
 }
+
+.myskills{
+  background-color: #f1f1f1;
+}
+
+.myskills ul{
+  margin-top: 30px;
+  /* listの・を無くす */
+  list-style: none;
+  padding: 0;
+  /* 直下の要素(list)を横並びにする */
+  display: flex;
+  /* 余白を持って等間隔に配置 */
+  justify-content: space-around;
+}
+
+.skill_html5{
+  background-color: #e44d26;
+}
+
+.skill_css3{
+  background-color: #75A9FF;
+}
+
+.skill_javascript{
+  background-color: #FFD007;
+}
+/* 共通のcss設定 */
+.myskills ul li{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  /* 文字を中央ぞろえにする */
+  display: flex;
+  /* 左右を中央ぞろえ */
+  justify-content: center;
+  /* 上下を中央ぞろえ */
+  align-items: center;
+  /* 文字のフォント調整 */
+  color: #ffffff;
+  font-size: 14px;
+  /* 太文字 */
+  font-weight: bold;
+}
