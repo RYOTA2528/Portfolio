@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* common(見出し) */
+body{
+  /* 余分な余白の削除 */
+  margin: 0;
+}
+
+img {
+  /* imgタグ下の余分なスペースを削除する（指定要素を下端揃えにします。） */
+  vertical-align: bottom;
+}
+
+h1,h2,h3,p{
+    /* 余分な余白の削除 */
+  margin: 0;
+}
+
+.wrapper{
+  max-width: 600px;
+  /* コンテンツを中央ぞろえ */
+  margin: 0 auto;
+  /* 上下30px,左右5％分の余白作成 */
+  padding: 30px 4%;
+}
+/* header */
+header{
+  text-align: center;
+}
+
+.photo{
+  /* 楕円形 */
+  border-radius: 20%;
+  margin-bottom: 10px;
+}
+
+/* main */
+h2{
+  text-align: center;
+}
