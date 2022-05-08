@@ -82,3 +82,29 @@ h2{
   /* 太文字 */
   font-weight: bold;
 }
+
+.works_box{
+  max-width: 500px;
+  /* 縦方向を中央配置 */
+  margin: 10px auto;
+}
+/* 今後サイトを増やす際、写真の縦横比を統一するために */
+.works_image{
+  width: 100%;
+  height: auto;
+}
+
+works_box h3{
+  margin-top: 15px;
+}
+
+.works_box p{
+  margin-top: 7px;
+}
+
+/* footer */
+footer{
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
